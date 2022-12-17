@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!--
+          Name : Arpita Sakshee
+          Project : Memory Pair Game
+          Class : JavaScript
+        -->
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Pairs</title>
+          <script src='https://code.jquery.com/jquery-3.6.1.min.js'></script>  
+          <link rel="stylesheet" href="css/styles.css">
+          <script src="js/script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Memory Pair Game</h1>
+  </header>
+  <div class="memory-game">
+    <div id="menu">
+      <label for="game-level">Difficulty Level</label>
+      <select name="game-level" id="game-level">
+        <option value="easy">Easy</option>
+        <option value="hard">Hard</option>
+      </select>
+      <p>Select board size (row x col)</p>
+      <button id="2_3">2 x 3</button>
+      <button id="3_4">3 x 4</button>
+      <button id="4_4">4 x 4</button>
+      <button id="4_5">4 x 5</button>
+      <button id="5_6">5 x 6</button>
+    </div>
+    <div id="memory-board">
+      <!-- Table to inject memory board -->
+      <table></table>
+    </div>
+    <div id="stats">
+      <p id="timer">&nbsp;</p>
+      <p id="moves">&nbsp;</p>
+      <p id="missed">&nbsp;</p>
+    </div>
+    <div id="restart">
+      <button id="restart-button">New Game</button>
+    </div>
+    <div id="game-msg">&nbsp;</div>
+  </div>
+  <footer>
+    <div class="social-media">
+        <h3>Follow Me</h3>
+        <a href="https://www.linkedin.com/in/arpita-sakshee/" target="_blank"><img src="images/linkedIn.jpeg" alt="Linkedin"></a>
+        <a href="https://www.instagram.com/sakshee.insta/" target="_blank"><img src="images/instagram.jpeg" alt="Instagram"></a>
+        <p>&copy; 2022 Arpita Sakshee</p>
+    </div>
+  </footer>
+</body>
+</html>
